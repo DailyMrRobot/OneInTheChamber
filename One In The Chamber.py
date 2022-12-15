@@ -21,7 +21,7 @@ client = commands.Bot(command_prefix='!', intents=intents)
 
 
 load_dotenv()
-TOKEN = os.getenv('MTA1Mjg4OTYxMzQzMTIxNDA4MA.Gi_W3y.PVFt84SM11Qo4Mtu-rHpeX-uYm_I2WEAsLl4pQ')
+TOKEN = os.getenv('')
 
 bot = commands.Bot(command_prefix='!')
 
@@ -52,4 +52,4 @@ async def Very_Hard(ctx):
     await ctx.send(response)
 
 
-bot.run('MTA1Mjg4OTYxMzQzMTIxNDA4MA.Gi_W3y.PVFt84SM11Qo4Mtu-rHpeX-uYm_I2WEAsLl4pQ')
+bot.run('')
